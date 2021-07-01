@@ -9,13 +9,13 @@
     <a class="navbar-brand" href="#">RS MITRA CINTA</a>
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">HOME</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">DATA PEGAWAI</a>
         </li>
         <li>
-            <a class="nav-link" href="<?php echo site_url('home/logout');?>">Log Out</a>
+            <a class="nav-link" href="<?php echo site_url('home/logout');?>">LOG OUT</a>
         </li>
     </ul>
     </div>

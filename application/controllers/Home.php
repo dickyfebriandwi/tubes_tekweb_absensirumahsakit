@@ -26,7 +26,7 @@ class Home extends CI_COntroller{
     //fungsi login dan logout
     public function login(){
         if($this->AkunModel->login()->row()){
-            $tipe=$this->db->get_where('akun',array('username'=> $this->input->post("username")));
+            $tipe=$this->db->get_where('akun',array('username'=> $this->input->post("username")))->row();
             $session_data = array(
                 "login" => true,
                 "username" => $this->input->post("username"),
