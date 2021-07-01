@@ -19,6 +19,10 @@ class Home extends CI_COntroller{
             $this->load->view("login");
         }
     }
+    //fungsi panggil aboutus
+    public function about(){
+        $this->load->view("aboutus");
+    }
     //fungsi panggil datapegawai
     public function datapegawai(){
         if($this->session->userdata('login')){

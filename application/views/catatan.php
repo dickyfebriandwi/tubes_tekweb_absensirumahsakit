@@ -23,6 +23,9 @@
         <li>
             <a class="nav-link" href="<?php echo site_url('home/logout');?>">LOG OUT</a>
         </li>
+        <li>
+            <a class="nav-link" href="<?php echo site_url('home/about');?>">ABOUT US</a>
+        </li>
     </ul>
     </div>
     <br>
